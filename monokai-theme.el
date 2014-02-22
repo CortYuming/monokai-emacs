@@ -2440,7 +2440,7 @@ Takes and optional `FRAME' as reference."
                              :weight bold
                              :slant normal
                              :inverse-video nil
-                             :height ,monokai-height-plus-1
+                             ;; :height ,monokai-height-plus-1
                              :underline nil
                              :box (:line-width 2 :color ,monokai-bg)))))
 
@@ -2524,22 +2524,22 @@ Takes and optional `FRAME' as reference."
 
      `(org-level-1
        ((,class (:inherit ,s-variable-pitch
-                          :height ,monokai-height-plus-4
+                          ;; :height ,monokai-height-plus-4
                           :foreground ,orange))))
 
      `(org-level-2
        ((,class (:inherit ,s-variable-pitch
-                          :height ,monokai-height-plus-3
+                          ;; :height ,monokai-height-plus-3
                           :foreground ,green))))
 
      `(org-level-3
        ((,class (:inherit ,s-variable-pitch
-                          :height ,monokai-height-plus-2
+                          ;; :height ,monokai-height-plus-2
                           :foreground ,blue))))
 
      `(org-level-4
        ((,class (:inherit ,s-variable-pitch
-                          :height ,monokai-height-plus-1
+                          ;; :height ,monokai-height-plus-1
                           :foreground ,yellow))))
 
      `(org-level-5
