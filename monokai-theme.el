@@ -174,7 +174,7 @@ Takes and optional `FRAME' as reference."
          (s-mode-line-bg (if monokai-high-contrast-mode-line
                              monokai-fg monokai-hl-line))
          (s-mode-line-buffer-id-fg (if monokai-high-contrast-mode-line
-                                       'unspecified green))
+                                       'unspecified monokai-fg))
          (s-mode-line-inactive-fg (if monokai-high-contrast-mode-line
                                       monokai-fg monokai-comments))
          (s-mode-line-inactive-bg (if monokai-high-contrast-mode-line
