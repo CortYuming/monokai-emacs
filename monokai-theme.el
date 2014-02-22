@@ -506,9 +506,9 @@ Takes and optional `FRAME' as reference."
                                                   :color ,s-mode-line-bg
                                                   :style unspecified)))))
 
-     `(mode-line-buffer-id
-       ((,class (:foreground ,s-mode-line-buffer-id-fg
-                             :weight bold))))
+     ;; `(mode-line-buffer-id
+     ;;   ((,class (:foreground ,s-mode-line-buffer-id-fg
+     ;;                         :weight bold))))
 
      `(mode-line-inactive
        ((,class (:inverse-video unspecified
