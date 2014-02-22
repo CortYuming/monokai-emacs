@@ -529,7 +529,7 @@ Takes and optional `FRAME' as reference."
                                                   :style unspecified)))))
 
      `(region
-       ((,class (:background ,monokai-hl
+       ((,class (:background ,violet-d
                              :inherit t))))
 
      `(secondary-selection
