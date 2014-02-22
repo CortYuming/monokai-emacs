@@ -1742,7 +1742,7 @@ Takes and optional `FRAME' as reference."
        ((,class (:inherit match))))
 
      `(helm-selection
-       ((,class (:background ,monokai-hl
+       ((,class (:background ,violet-lc
                              :underline t))))
 
      `(helm-selection-line
