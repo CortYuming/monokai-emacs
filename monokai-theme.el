@@ -2001,7 +2001,7 @@ Takes and optional `FRAME' as reference."
 
      ;; linum-mode
      `(linum
-       ((,class (:foreground ,monokai-comments
+       ((,class (:foreground ,monokai-hl
                              :background ,s-fringe-bg))))
 
      ;; lusty-explorer
