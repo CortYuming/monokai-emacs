@@ -529,7 +529,7 @@ Takes and optional `FRAME' as reference."
                                                   :style unspecified)))))
 
      `(region
-       ((,class (:background ,violet-d
+       ((,class (:background ,orange
                              :inherit t))))
 
      `(secondary-selection
