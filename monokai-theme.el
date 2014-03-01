@@ -1291,7 +1291,7 @@ Takes and optional `FRAME' as reference."
          (:underline (:style wave :color ,red)
                      :inherit unspecified
                      :foreground unspecified
-                     :background unspecified))
+                     :background, red-lc))
         (,class (:foreground ,red-hc
                              :background ,red-lc
                              :weight bold
