@@ -2813,11 +2813,11 @@ Takes and optional `FRAME' as reference."
                              :background ,monokai-bg))))
 
      `(erb-comment-face
-       ((,class (:foreground ,monokai-emph
+       ((,class (:foreground ,monokai-comments
                              :background ,monokai-bg))))
 
      `(erb-comment-delim-face
-       ((,class (:foreground ,cyan
+       ((,class (:foreground ,monokai-comments
                              :background ,monokai-bg))))
 
 
