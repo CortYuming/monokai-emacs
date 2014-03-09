@@ -136,15 +136,15 @@ Takes and optional `FRAME' as reference."
 
          ;; Adaptive colors
          (monokai-fg       (if (in-terminal) "#F5F5F5" "#F8F8F2"))
-         (monokai-bg       (if (in-terminal) "#1B1E1C" "#272822"))
+         (monokai-bg       (if (in-terminal) "#1B1E1C" "#1B1E1C"))
          (monokai-hl-line  (if (in-terminal) "#212121" "#616161"))
-         (monokai-hl       (if (in-terminal) "#303030" "#49483E"))
+         (monokai-hl       (if (in-terminal) "#303030" "#494849"))
          (monokai-emph     (if (in-terminal) "#FFFAFA" "#F8F8F0"))
-         (monokai-comments (if (in-terminal) "#8B8878" "#75715E"))
+         (monokai-comments (if (in-terminal) "#8B8878" "#8B8878"))
 
          ;; Adaptive higher/lower contrast accented colors
-         (monokai-fg-hc    (if (in-terminal) "#171A0B" "#141414"))
-         (monokai-fg-lc    (if (in-terminal) "#141414" "#171A0B"))
+         (monokai-fg-hc    (if (in-terminal) "#171717" "#141414"))
+         (monokai-fg-lc    (if (in-terminal) "#141414" "#171717"))
 
          (yellow-hc        (if (in-terminal) yellow-d yellow-l))
          (yellow-lc        (if (in-terminal) yellow-l yellow-d))
