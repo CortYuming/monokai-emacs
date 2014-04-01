@@ -491,8 +491,8 @@ Takes and optional `FRAME' as reference."
 
      ;; misc faces
      `(menu
-       ((,class (:foreground ,monokai-fg
-                             :background ,monokai-bg))))
+       ((,class (:foreground ,monokai-hl
+                             :background ,monokai-fg))))
 
      `(minibuffer-prompt
        ((,class (:foreground ,blue))))
