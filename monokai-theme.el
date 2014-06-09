@@ -111,7 +111,7 @@ Takes and optional `FRAME' as reference."
          (violet           (if (in-terminal) "#AF87FF" "#AE81FF"))
          (blue             (if (in-terminal) "#5FD7FF" "#66D9EF"))
          (cyan             (if (in-terminal) "#5FFFFF" "#A1EFE4"))
-         (green            (if (in-terminal) "#87D700" "#A6E22E"))
+         (green            (if (in-terminal) "#87D700" "#87D700"))
 
          ;; Darker and lighter accented colors
          ;;
@@ -132,7 +132,7 @@ Takes and optional `FRAME' as reference."
          (cyan-d           (if (in-terminal) "#349B8D" "#349B8D"))
          (cyan-l           (if (in-terminal) "#AFEEEE" "#BBF7EF"))
          (green-d          (if (in-terminal) "#6B8E23" "#67930F"))
-         (green-l          (if (in-terminal) "#B3EE3A" "#C1F161"))
+         (green-l          (if (in-terminal) "#B3EE3A" "#d1f589"))
 
          ;; Adaptive colors
          (monokai-fg       (if (in-terminal) "#F5F5F5" "#F8F8F2"))
@@ -2530,7 +2530,7 @@ Takes and optional `FRAME' as reference."
      `(org-level-2
        ((,class (:inherit ,s-variable-pitch
                           ;; :height ,monokai-height-plus-3
-                          :foreground ,green))))
+                          :foreground ,green-l))))
 
      `(org-level-3
        ((,class (:inherit ,s-variable-pitch
@@ -2548,7 +2548,7 @@ Takes and optional `FRAME' as reference."
 
      `(org-level-6
        ((,class (:inherit ,s-variable-pitch
-                          :foreground ,green))))
+                          :foreground ,green-d))))
 
      `(org-level-7
        ((,class (:inherit ,s-variable-pitch
