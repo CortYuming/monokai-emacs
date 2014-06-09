@@ -137,8 +137,8 @@ Takes and optional `FRAME' as reference."
          ;; Adaptive colors
          (monokai-fg       (if (in-terminal) "#F5F5F5" "#F8F8F2"))
          (monokai-bg       (if (in-terminal) "#1B1E1C" "#1B1E1C"))
-         (monokai-hl-line  (if (in-terminal) "#212121" "#616161"))
-         (monokai-hl       (if (in-terminal) "#303030" "#494849"))
+         (monokai-hl-line  (if (in-terminal) "#616161" "#616161"))
+         (monokai-hl       (if (in-terminal) "#494849" "#494849"))
          (monokai-emph     (if (in-terminal) "#FFFAFA" "#F8F8F0"))
          (monokai-comments (if (in-terminal) "#8B8878" "#8B8878"))
 
