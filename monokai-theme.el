@@ -213,7 +213,7 @@ Takes and optional `FRAME' as reference."
 
      `(fringe
        ((,class (:foreground ,monokai-fg
-                             :background ,s-fringe-bg))))
+                             :background ,monokai-fg-hc))))
 
      `(highlight
        ((,class (:background ,monokai-hl))))
